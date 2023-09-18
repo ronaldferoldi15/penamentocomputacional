@@ -1,3 +1,29 @@
 h1{
-color:blue
+color:blue;
+text-align: center;
+font-size: 36px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
+
+p{
+    /*color:blue;*/
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 12px;
+}
+
+b{
+    color:rgb(red, green, blue)
+    font-size
+
+
+
+
+
+
+
+
+
+
