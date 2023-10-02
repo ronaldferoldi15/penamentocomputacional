@@ -1,3 +1,52 @@
+/*header*/
+
+header{
+    background: linear-gradient(#c0c0c0,#c0c0c0);
+    padding-top: 15px;
+}
+
+.cabeçalho{
+position: relative;
+width: 900px;
+margin: 0 auto;
+
+}
+
+#logo:hover{
+transition: 1s;
+transform: scale(1.1);
+
+}
+
+nav{
+position: absolute;
+top: 110px;
+right: 0;
+
+}
+
+nav a{
+text-decoration: uppercase;
+color: black;
+font-size: 30px;
+text-decoration: none;
+
+}
+
+nav li {
+display: inline;
+margin-left: 15px;
+
+}
+
+nav a:hover{
+transition: 0.2s;
+color: #484443;
+text-decoration: underline;
+}
+
+
+
 h1{
 color:blue;
 text-align: center;
