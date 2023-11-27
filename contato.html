@@ -7,120 +7,132 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contato.css.css">
+    <link rel="stylesheet" href="staly.css">
+    <link rel="stylesheet" href="contato.css">
 </head>
 <body>
     <header>
-        <div class="cabeçalho">
+        <div class="cabecalho">
             <h1>
-                <a href="index.html" title="pagina inicial">
+                <a href="index.html" title="Página inicial">
                     <img src="logo.png" alt="logo da barbearia alura na cor preta"
                     width="177" height="250" id="logo">
                 </a>
             </h1>
             <nav>
                 <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="produtos.html">produtos</a>
-                        </li>
-                        <li>
-                            <a href="contato.html">contato</a>
-                            </li>
-                            </ul>
-                            </nav>
-                            </div>
-                            </header>
-                        </main>
-                        <form>
-                            <p> os campos com * sao obrigatori0 </p>
-                            <label for="nomecompleto">Nome completo</label>
-                            <input class="input-padrão" type="text" id="nome completo" required
-                            placeholder="nome e sobrenome">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="produtos.html">Produtos</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <p>Os campos com * são obrigatórios!</p>
+            <label for="nomecompleto">Nome Completo*</label>
+            <input class="input-padrao" type="text" id="nomecompleto" required
+            placeholder="Nome e Sobrenome">
 
-                            <label for="email">Email</label>
-                            <input class="input-padrão" type="email" id="email" required
-                            placeholder="seuemail@dominio.com">
+            <label for="email">Email*</label>
+            <input class="input-padrao" type="email" id="email" required
+            placeholder="seuemail@dominio.com">
 
-                            <label for="telefone">Telefone</label>
-                            <input class="input-padrão" type="tel" id="email" required
-                            placeholder="(XX) XXXXX-XXXX">
+            <label for="telefone">Telefone</label>
+            <input class="input-padrao" type="tel" id="email" required
+            placeholder="(xx) xxxxx-xxxx">
 
-                            <label for="mesagem">mensagen</label>
-                            <textarea cols="70" rows="5" id="mensagem"
-                            placeholder="Ex.: gostaria de agendar um corte de cabelo e barba para o proximo sabado."></textarea>
-                            </form>
-    
-<fieldset>
-    <legend>Em qual horario prefere seu atendimento ? </legend>
-    <select>
-        <option>Manhã</option>
-        <option>Tarde</option>
-        <option>Noite</option>
-        </select>
-        </fieldset>
+            <label for="mesagem">Mensagem</label>
+            <textarea cols="70" rows="5" id="Mensagem"
+            placeholder="Ex.: Gostaria de agendar um corte de cabelo e barbearia
+            para o próximo sábado."></textarea>
 
-    </fieldset>
-    <legend>Como prefere o nosso contato ?</legend>
-    <label for="radio-email">
-        <input type="radio" name="contato" value="email" id="radio-email">
-        Email
-    </label>
+            <fieldset>
+                <legend>Em qual horário prefere seu atendimento?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
 
-    <label for="radio-telefone">
-    <input type="radio" name="contato" value="telefone" id="radio-teleone">
-    Telefone
-    </label>
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email" id="radio-email">
+                    Email
+                </label>
 
-    <label for="radio-whatsapp">
-        <input type="radio" name="contato" value="whatapp" id="radio-whatapp">
-        Whatsapp
-    </label>
-</fieldset>
-<label class="Checkbox">Gostaria de receber nossas atividades por email ?
-    <input type="checkbox" checked>
-    </label>
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    Telefone
+                </label>
 
-    <input class="enviar" type="submit" value="enviar">
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                    Whatsapp
+                </label>
+            </fieldset>
+            <label class="checkbox"> Gostaria de receber nossas novidades por email?
+            <input type="checkbox" checked>
+            </label>
 
-</form>
+            <input class="enviar" type="submit" value="Enviar" >
+        
+        </form>
 
-<table>
-<thead>
-    <th>Dias</th>
-    <th>horario</th>
-    </thead>
-    </table>
-    <tbody>
-        <tr>
-            <td>terça a sexta<td>
-                <td>das 8h as 20h</td>
+        <table>
+            <thead>
+                <th>Dias</th>
+                <th>Horários</th>
+            </thead>
+        
+        <tbody>
+            <tr>
+                <td>Terça á Sexta</td>
+                <td>Das 8h ás 20h</td>
             </tr>
             <tr>
-                <td>sabado e domingo</td>
-                <td>das 9h as 18h</td>
-                
+                <td>Sábado e Domingos</td>
+                <td>Das 9h ás 18h</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Estamos te esperando!</td>
+            </tr>
+        </tfoot>
+    </table>
+    </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer>
+        <div class="logo-footer">
+            <img src="logo-branco.png" alt="logo barbearia alura na cor branca" 
+            width="45" height="45">
+        </div>
+        
+        <div class="redes">
+            <a href="https://github.com/professorjulianosilva" title="professorjulianosilva"
+             target="_blank">
+                <img src="github-logo.png" alt="logo do github" width="45" height="45">
+            </a>
+        
+            <a href="https://www.instagram.com/usuario" title="usuario" target="_blank">
+                <img src="instagram-logo.png" alt="logo do instagram" width="45" 
+                height="45">
+            </a>
+        </div>
+        
+        <div class="copyright"> Desenvolvido por Juliano Silva</div>
+        <div class="copyright">&copy; Copyright Barbearia Alura</div>
+        </footer>
 
 </body>
 </html>

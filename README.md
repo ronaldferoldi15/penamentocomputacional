@@ -1,1 +1,1 @@
-# penamentocomputacional
+# pensamento_computacional
