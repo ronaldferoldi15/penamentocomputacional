@@ -82,6 +82,40 @@ body{
     text-align: justify;
 }
 
+#banner{
+    width: 100%;
+    height: auto;
+}
+
+.principal{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#utensilios{
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: auto 15px 15px auto;
+    border: 1px solid #484443;
+}
+
+#utensilios:hover {
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px #363535;
+    opacity: 75%;
+}
+
+.localizacao {
+    padding: 3rem 0;
+}
+
+.localizacao p {
+    margin-bottom: 2rem;
+        
+}
+
 /*footer*/
 
 
